@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <voices>
+        <voice name="Katrin-A" mothertongue="German" basename="Katrin">
+            <library name="LTTS7${basename}" entrypoint="${basename}" />
+            <info description="German female voice" age="25" gender="female" demosentence="Ich heiße Katrin. Ich bin die weibliche Stimme von Loquendo und meine Muttersprache ist Deutsch." basepitch="150" basespeed="128" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="vocaldb" name="${basename}">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="MM" type="vad" name="AnnaMM">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="AnnaMM.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+            </resources>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                        <add class="MM" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+            <languagealiases>
+                <alias type="internal" name="${mothertongue}" />
+                <alias type="IETF" name="de-DE" />
+                <alias type="WinLangid" name="1031" />
+                <alias type="generic" name="de" />
+                <alias type="generic" name="de-DE" />
+            </languagealiases>
+        </voice>
+    </voices>
+</config>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <languages>
+        <language name="Dutch" basename="Dutch" defaultvariant="yes">
+            <library name="LTTS7${basename}" entrypoint="${name}" />
+            <info description="${basename}" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="gpr" name="${name}" />
+                <resource class="base" type="lexicalinfo" name="${name}" />
+                <resource class="base" type="lexicon" name="${name}" />
+            </resources>
+            <languagealiases>
+                <alias type="internal" name="${name}" />
+                <alias type="IETF" name="nl-NL" />
+                <alias type="WinLangid" name="1043" />
+                <alias type="generic" name="nl" />
+            </languagealiases>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+        </language>
+    </languages>
+</config>

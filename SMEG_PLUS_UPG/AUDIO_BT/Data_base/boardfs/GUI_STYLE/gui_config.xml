@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- General config file: contains general gui parameters as language and resources path-->
+<config>
+  <!--device_path>/bd0/BOARDFS/GUI_STYLE</device_path-->
+  <device_path>/SYSTEM/Data_Base/boardfs/GUI_STYLE</device_path>
+  <!--device_path>../../GUI_STYLE</device_path-->
+  <screen_size>800,480</screen_size>
+  <!-- Harmony codes used (e.g. AGORA ATHOMIUM ACIDULE ) -->
+  <armony>10</armony>
+  <!-- International country codes used (e.g. FR IT US GB DE) -->
+  <language>0</language>
+  <sounds_path>GUIS_RESSOURCES/gui_sounds</sounds_path>
+  <images_path>GUIS_RESSOURCES/gui_images</images_path>
+  <strings_path>GUIS_RESSOURCES/gui_text_strings</strings_path>
+  <fonts_path>GUIS_RESSOURCES/gui_fonts</fonts_path>
+  <colors_path>GUIS_RESSOURCES/gui_colors</colors_path>
+  <templates_path>GUIS_RESSOURCES/gui_templates</templates_path>
+  <animations_path>GUIS_RESSOURCES/gui_animations</animations_path>
+  <images_list_path>GUIS_RESSOURCES/gui_images_list</images_list_path>
+  <texts_list_path>GUIS_RESSOURCES/gui_texts_list</texts_list_path>
+  <status_list_path>GUIS_RESSOURCES/gui_status_list</status_list_path>
+  <beziers_list_path>GUIS_RESSOURCES/gui_beziers_list</beziers_list_path>
+  <beziers_path>GUIS_RESSOURCES/gui_beziers</beziers_path>
+</config>

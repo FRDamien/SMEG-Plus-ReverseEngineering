@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <voices>
+        <voice name="Carmen-A" mothertongue="SpanishEs" basename="Carmen">
+            <library name="LTTS7${basename}" entrypoint="${basename}" />
+            <info description="Castilian Spanish female voice" age="31" gender="female" demosentence="Mi nombre es Carmen: soy una voz femenina de Loquendo, y mi lengua nativa es el español de España." basepitch="140" basespeed="128" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="vocaldb" name="${basename}">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="MM" type="vad" name="${basename}MM">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+            </resources>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                        <add class="MM" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+            <languagealiases>
+                <alias type="internal" name="${mothertongue}" />
+                <alias type="IETF" name="es-ES" />
+                <alias type="WinLangid" name="1034" />
+                <alias type="generic" name="ES" />
+                <alias type="generic" name="Castilian" />
+                <alias type="generic" name="es" />
+                <alias type="generic" name="Spanish" />
+            </languagealiases>
+        </voice>
+    </voices>
+</config>

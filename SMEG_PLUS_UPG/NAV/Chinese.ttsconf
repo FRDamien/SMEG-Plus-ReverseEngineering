@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <languages>
+        <language name="Chinese" basename="Chinese" defaultvariant="yes">
+            <library name="LTTS7${basename}" entrypoint="${name}" />
+            <info description="${basename}" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="chd" name="${name}" />
+            </resources>
+            <languagealiases>
+                <alias type="internal" name="${name}" />
+                <alias type="IETF" name="zh-CN" />
+                <alias type="WinLangid" name="1028" />
+                <alias type="generic" name="zh" />
+                <alias type="generic" name="Mandarin" />
+            </languagealiases>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+        </language>
+    </languages>
+</config>

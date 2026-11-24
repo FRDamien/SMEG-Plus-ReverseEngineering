@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <languages>
+        <language name="FrenchFr" basename="French" defaultvariant="yes">
+            <library name="LTTS7${basename}" entrypoint="${name}" />
+            <info description="${basename}" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="lexicalinfo" name="${name}" />
+                <resource class="base" type="lexicon" name="lexicon_event" />
+                <resource class="base" type="lexicon" name="lexicon_location" />
+                <resource class="base" type="lexicon" name="lexicon_add" />
+            </resources>
+            <languagealiases>
+                <alias type="internal" name="${name}" />
+                <alias type="IETF" name="fr-FR" />
+                <alias type="WinLangid" name="1036" />
+                <alias type="generic" name="French" />
+                <alias type="generic" name="FrenchFr" />
+                <alias type="generic" name="fr" />
+            </languagealiases>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+        </language>
+    </languages>
+</config>

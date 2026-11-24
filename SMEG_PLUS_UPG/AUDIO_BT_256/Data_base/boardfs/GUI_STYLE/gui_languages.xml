@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+  <language>
+    <!-- LANG_FR = 0, FR = French -->
+    <id>0</id>
+    <name>FR</name>
+  </language>
+  <language>
+    <!-- LANG_EN = 1, GB = English -->
+    <id>1</id>
+    <name>GB</name>
+  </language>  
+  <language>
+    <!-- LANG_DE = 2, GE = German -->
+    <id>2</id>
+    <name>GE</name>
+  </language>  
+  <language>
+    <!-- LANG_IT = 3, IT= Italian -->
+    <id>3</id>
+    <name>IT</name>
+  </language>
+  <language>
+    <!-- LANG_ES = 4, SP = Spanish -->
+    <id>4</id>
+    <name>SP</name>
+  </language>    
+  <language>
+    <!-- LANG_DU = 5, DU = Dutch -->
+    <id>5</id>
+    <name>DU</name>
+  </language>  
+  <language>
+    <!-- LANG_PO = 6, PO = Portuguese -->
+    <id>6</id>
+    <name>PO</name>
+  </language>      
+  <language>
+    <!-- LANG_SC = 7, SC = Simplified Chinese -->
+    <id>7</id>
+    <name>SC</name>
+  </language>    
+  <language>
+    <!-- LANG_US = 8, US = Traditional Chinese -->
+    <id>8</id>
+    <name>US</name>
+  </language>  
+  <language>
+    <!-- LANG_TU = 9, TU = Turkish -->
+    <id>9</id>
+    <name>TU</name>
+  </language>  
+  <language>
+    <!-- LANG_PL = 10, PL = Polish -->
+    <id>10</id>
+    <name>PL</name>
+  </language>  
+  <language>
+    <!-- LANG_BR = 11, BR = Brazilian Portuguese -->
+    <id>11</id>
+    <name>BR</name>
+  </language>  
+  <language>
+    <!-- LANG_RU = 12, RU = Russian -->
+    <id>12</id>
+    <name>RU</name>
+  </language>  
+  <language>
+    <!-- LANG_CR = 13, CR = Croatian -->
+    <id>13</id>
+    <name>CR</name>
+  </language>
+  <language>
+    <!-- LANG_HO = 14, HO = Hungarian -->
+    <id>14</id>
+    <name>HO</name>
+  </language>
+  <language>
+    <!-- LANG_CZ = 15, CZ = Czech -->
+    <id>15</id>
+    <name>CZ</name>
+  </language>
+</languages>

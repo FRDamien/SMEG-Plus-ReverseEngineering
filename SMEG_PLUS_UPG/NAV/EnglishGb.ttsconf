@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <languages>
+        <language name="EnglishGb" basename="English" defaultvariant="no">
+            <library name="LTTS7${basename}" entrypoint="${name}" />
+            <info description="British ${basename}" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="gpr" name="${name}" />
+                <resource class="base" type="lexicalinfo" name="${name}" />
+                <resource class="base" type="lexicon" name="lexicon_event" />
+                <resource class="base" type="lexicon" name="lexicon_location" />
+                <resource class="base" type="lexicon" name="${name}" />
+            </resources>
+            <languagealiases>
+                <alias type="internal" name="${name}" />
+                <alias type="IETF" name="en-GB" />
+                <alias type="WinLangid" name="2057" />
+                <alias type="generic" name="English" />
+                <alias type="generic" name="British" />
+                <alias type="generic" name="en" />
+                <alias type="generic" name="GB" />
+            </languagealiases>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+        </language>
+    </languages>
+</config>

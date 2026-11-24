@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <voices>
+        <voice name="Lisheng-A" mothertongue="Chinese" basename="Lisheng">
+            <library name="LTTS7${basename}" entrypoint="${basename}" />
+            <info description="${mothertongue} ${info.gender} voice" age="25" gender="female" demosentence="wo3 jiao4 li4 sheng1, wo3 shi4 Loquendo de5 nv3sheng1 lu4yin1 yuan2, wo3de5 mu3yu3 shi4 han4yu3." basepitch="180" basespeed="128" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="vocaldb" name="${basename}_1">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="base" type="vocaldb" name="${basename}_2">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="base" type="vocaldb" name="${basename}_3">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="MM" type="vad" name="${basename}MM">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+            </resources>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                        <add class="MM" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+            <languagealiases>
+                <alias type="internal" name="${mothertongue}" />
+                <alias type="IETF" name="zh-CN" />
+                <alias type="WinLangid" name="1028" />
+                <alias type="generic" name="zh" />
+                <alias type="generic" name="Mandarin" />
+            </languagealiases>
+        </voice>
+    </voices>
+</config>

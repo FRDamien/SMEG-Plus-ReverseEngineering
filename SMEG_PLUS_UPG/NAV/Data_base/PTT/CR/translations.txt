@@ -1,0 +1,106 @@
+podesite glasnoću umjetnog glasa.
+podesite glasnoću umjetnog glasa.
+za 10 jardi,
+za 20 jardi,
+za 30 jardi,
+za 40 jardi,
+za 50 jardi,
+za 60 jardi,
+za 70 jardi,
+za 80 jardi,
+za 90 jardi,
+za 100 jardi,
+za 150 jardi,
+za 200 jardi,
+za 250 jardi,
+za 300 jardi,
+za 350 jardi,
+za 400 jardi,
+za 500 jardi,
+za 600 jardi,
+za 800 jardi,
+za 10 metara,
+za 20 metara,
+za 30 metara,
+za 40 metara,
+za 50 metara,
+za 60 metara,
+za 70 metara,
+za 80 metara,
+za 90 metara,
+za 100 metara,
+za 150 metara,
+za 200 metara,
+za 250 metara,
+za 300 metara,
+za 350 metara,
+za 400 metara,
+za 500 metara,
+za 600 metara,
+za 800 metara,
+za 1 kilometar,
+za 1,2 kilometra,
+za 1,4 kilometra,
+za 1,6 kilometara,
+za 1,8 kilometara,
+za 2 kilometra,
+za 2,2 kilometra,
+za 1 milju,
+za 1,2 milje,
+za 1,4 milje,
+za 1,6 milja,
+za 1,8 milja,
+za 2 milje,
+za 2,2  milje,
+izaći na prvom izlazu,
+izaći na drugom izlazu,
+izaći na trećem izlazu,
+izaći na četvrtom izlazu,
+izaći na petom izlazu,
+izaći na šestom izlazu,
+izaći na sedmom izlazu,
+izaći na osmom izlazu,
+izaći na devetom izlazu,
+izaći na desetom izlazu,
+izaći na jedanaestom izlazu,
+izaći na dvanaestom izlazu,
+izaći na trinaestom izlazu,
+izaći na četrnaestom izlazu,
+izaći na petnaestom izlazu,
+nakon mosta,
+nakon tunela,
+stigli ste.
+za autocestu,
+na kraju ulice,
+slijedite prikazani smjer.
+polukružno se okrenuti.
+na paralelnoj cesti.
+na srednjem traku.
+stigli ste na odredište.
+za ukrcaj.
+na raskrižju,
+zatim,
+stigli ste na etapu.
+izlaz,
+za kolodvor,
+nastavite vožnju na ovoj cesti.
+za parkiralište,
+na mostu.
+prijeđite na paralelnu cestu.
+prijeđite na srednji trak.
+skrenite desno,
+skrenite lijevo,
+skrenite desno.
+skrenite lijevo.
+sljedeći izlaz,
+nalazite se blizu odredišta.
+držite se desno.
+držite se lijevo.
+ostanite u sredini.
+na kružnom toku,
+ako je moguće,
+skrenuti desno,
+skrenuti lijevo,
+nastaviti ravno,
+u tunelu,
+Sugovornik vas je stavio na čekanje: molimo pričekati.

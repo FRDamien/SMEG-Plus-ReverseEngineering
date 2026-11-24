@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <languages>
+        <language name="Croatian" basename="Croatian" defaultvariant="yes">
+            <library name="LTTS7${basename}" entrypoint="${name}" />
+            <info description="${basename}" />
+            <resources path="modules/${basename}">
+            </resources>
+            <languagealiases>
+                <alias type="internal" name="${name}" />
+                <alias type="IETF" name="hr-HR" />
+                <alias type="WinLangid" name="1050" />
+                <alias type="generic" name="HR" />
+                <alias type="generic" name="hr" />
+            </languagealiases>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+        </language>
+    </languages>
+</config>

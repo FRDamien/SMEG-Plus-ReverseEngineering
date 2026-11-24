@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sounds>
+   <!-- Sweeping of the permanent pages -->
+   <sound>
+       <id>0</id>
+       <name>SWEEP_Z0</name>
+       <path>BalayageZ0.wav</path>
+   </sound>
+   <!-- Opening of the general menu -->
+   <sound>
+       <id>1</id>
+       <name>MAIN_MENU_OPENING</name>
+       <path>OuvertureMenu.wav</path>
+   </sound>
+   <!-- Final validation of a panel -->
+   <sound>
+       <id>2</id>
+       <name>CONFIRMATION</name>
+       <path>Validation.wav</path>
+   </sound>
+   <!-- Abandonment or return -->
+   <sound>
+       <id>3</id>
+       <name>CANCEL</name>
+       <path>Abandon.wav</path>
+   </sound>
+   <!-- Seizure on alphanumeric or numerical keyboard -->
+   <sound>
+       <id>4</id>
+       <name>VKBD_BUTTONS</name>
+       <path>Clavier.wav</path>
+   </sound>
+   <!-- Displaying Welcome screen -->
+   <sound>
+       <id>5</id>
+       <name>WELCOME_OPENING</name>
+       <path>Welcome.wav</path>
+   </sound>
+   <!-- Opening menu -->
+   <sound>
+       <id>6</id>
+       <name>BRUSH</name>
+       <path>Brosser.wav</path>
+   </sound>
+</sounds>

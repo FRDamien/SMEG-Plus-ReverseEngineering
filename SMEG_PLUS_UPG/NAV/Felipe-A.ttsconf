@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <voices>
+        <voice name="Felipe-A" mothertongue="PortugueseBr" basename="Felipe">
+            <library name="LTTS7${basename}" entrypoint="${basename}" />
+            <info description="Brazilian male voice" age="35" gender="male" demosentence="Meu nome é Felipe: sou uma voz masculina de Loquendo, e a minha língua nativa é o português do Brasil." basepitch="90" basespeed="128" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="vocaldb" name="${basename}">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="MM" type="vad" name="${basename}MM">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+            </resources>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                        <add class="MM" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+            <languagealiases>
+                <alias type="internal" name="${mothertongue}" />
+                <alias type="IETF" name="pt-BR" />
+                <alias type="WinLangid" name="1046" />
+                <alias type="generic" name="BR" />
+                <alias type="generic" name="Brazilian" />
+                <alias type="generic" name="pt" />
+            </languagealiases>
+        </voice>
+    </voices>
+</config>

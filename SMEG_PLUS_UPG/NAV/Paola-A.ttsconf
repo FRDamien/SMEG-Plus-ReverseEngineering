@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <voices>
+        <voice name="Paola-A" mothertongue="Italian" basename="Paola">
+            <library name="LTTS7${basename}" entrypoint="${basename}" />
+            <info description="${mothertongue} ${info.gender} voice" age="24" gender="female" demosentence="Il mio nome è ${basename}: sono una voce femminile di Loquendo, e la mia madrelingua è l&apos;italiano." basepitch="170" basespeed="128" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="vocaldb" name="${basename}">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="MM" type="vad" name="${basename}MM">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+            </resources>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                        <add class="MM" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+            <languagealiases>
+                <alias type="internal" name="${mothertongue}" />
+                <alias type="IETF" name="it-IT" />
+                <alias type="WinLangid" name="1040" />
+                <alias type="generic" name="it" />
+                <alias type="generic" name="Italiano" />
+            </languagealiases>
+        </voice>
+    </voices>
+</config>

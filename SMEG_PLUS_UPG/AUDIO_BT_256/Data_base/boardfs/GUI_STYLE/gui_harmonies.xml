@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<harmonies>
+  <harmony>
+    <id>0</id>
+    <name>AGORA</name>
+  </harmony>
+  <harmony>
+    <id>1</id>
+    <name>BLUEXY</name>
+  </harmony>
+  <harmony>
+    <id>2</id>
+    <name>PLAQUE</name>
+  </harmony>
+  <harmony>
+    <id>3</id>
+    <name>EKODO</name>
+  </harmony>  
+  <harmony>
+    <id>4</id>
+    <name>MORGLUB</name>
+  </harmony>
+  <harmony>
+    <id>5</id>
+    <name>AGORA2</name>
+  </harmony>   
+  <harmony>
+    <id>6</id>
+    <name>FOR_TEST</name>
+  </harmony>   
+    <harmony>
+    <id>7</id>
+    <name>TEST</name>
+  </harmony>   
+</harmonies>

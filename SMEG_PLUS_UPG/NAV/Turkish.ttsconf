@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <languages>
+        <language name="Turkish" basename="Turkish" defaultvariant="yes">
+            <library name="LTTS7${basename}" entrypoint="${name}" />
+            <info description="${basename}" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="lexicon" name="${name}" />
+            </resources>
+            <languagealiases>
+                <alias type="internal" name="${name}" />
+                <alias type="IETF" name="tr-TR" />
+                <alias type="WinLangid" name="1055" />
+                <alias type="generic" name="tr" />
+            </languagealiases>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+        </language>
+    </languages>
+</config>

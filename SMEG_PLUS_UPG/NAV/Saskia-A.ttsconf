@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <voices>
+        <voice name="Saskia-A" mothertongue="Dutch" basename="Saskia">
+            <library name="LTTS7${basename}" entrypoint="${basename}" />
+            <info description="Dutch female voice" age="24" gender="female" demosentence="Mijn naam is Saskia: ik ben een van de vrouwelijke stemmen van Loquendo, en mijn moedertaal is Nederlands." basepitch="170" basespeed="128" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="vocaldb" name="${basename}">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="MM" type="vad" name="${basename}MM">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+            </resources>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                        <add class="MM" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+            <languagealiases>
+                <alias type="internal" name="${mothertongue}" />
+                <alias type="IETF" name="nl-NL" />
+                <alias type="WinLangid" name="1043" />
+                <alias type="generic" name="nl" />
+            </languagealiases>
+        </voice>
+    </voices>
+</config>

@@ -1,0 +1,105 @@
+lütfen ses sentezinin sesini ayarlayın.
+lütfen ses sentezinin sesini ayarlayın.
+10 yarda kadar,
+20 yarda kadar,
+30 yarda kadar,
+40 yarda kadar,
+50 yarda kadar,
+60 yarda kadar,
+70 yarda kadar,
+80 yarda kadar,
+90 yarda kadar,
+100 yarda kadar,
+150 yarda kadar,
+200 yarda kadar,
+250 yarda kadar,
+300 yarda kadar,
+350 yarda kadar,
+400 yarda kadar,
+500 yarda kadar,
+600 yarda kadar,
+800 yarda kadar,
+10 metreye kadar,
+20 metreye kadar,
+30 metreye kadar,
+40 metreye kadar,
+50 metreye kadar,
+60 metreye kadar,
+70 metreye kadar,
+80 metreye kadar,
+90 metreye kadar,
+100 metreye kadar,
+150 metreye kadar,
+200 metreye kadar,
+250 metreye kadar,
+300 metreye kadar,
+350 metreye kadar,
+400 metreye kadar,
+500 metreye kadar,
+600 metreye kadar,
+800 metreye kadar,
+1 kilometreye kadar,
+1,2 kilometreye kadar,
+1,4 kilometreye kadar,
+1,6 kilometreye kadar,
+1,8 kilometreye kadar,
+2 kilometreye kadar,
+2,2 kilometreye kadar,
+1 mile kadar,
+1,2 mile kadar,
+1,4 mile kadar,
+1,6 mile kadar,
+1,8 mile kadar,
+2 mile kadar,
+2,2 mile kadar,
+ilk çıkıştan dön.
+ikinci çıkıştan dön.
+üçüncü çıkıştan dön.
+dördüncü çıkıştan dön.
+beşinci çıkıştan dön.
+altıncı çıkıştan dön.
+yedinci çıkıştan dön.
+sekizinci çıkıştan dön.
+dokuzuncu çıkıştan dön.
+onuncu çıkıştan dön.
+onbirinci çıkıştan dön.
+onikinci çıkıştan dön.
+onüçüncü çıkıştan dön.
+ondördüncü çıkıştan dön.
+onbeşinci çıkıştan dön.
+köprüden sonra,
+tünelden snra,
+geldiniz.
+otoban için,
+caddenin sonunda,
+belirtilen yolu izleyin.
+U dönüşü yap.
+yan yolda.
+orta yolda.
+ulaşılan varış yeri.
+yükleme için.
+yol ağzında,
+ardından,
+ulaşılan etap.
+çıkış,
+gar için,
+bu yolu takip ediniz.
+park için,
+köprü üzerinde.
+yan yola sapınız.
+orta yolu takip ediniz.
+sağa dönünüz.
+sola dönünüz.
+sağa dönünüz,
+sola dönünüz,
+bir sonraki çıkış,
+varış yerine yaklaşmak üzeresiniz.
+sağda durunuz.
+solda durunuz.
+ortada durunuz.
+ada kavşakta,
+mümkünse,
+sağa dönünüz.
+sola dönünüz.
+düz devam ediniz.
+tünelde.

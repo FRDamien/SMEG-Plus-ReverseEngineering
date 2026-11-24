@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <voices>
+        <voice name="Eusebio-A" mothertongue="PortuguesePt" basename="Eusebio">
+            <library name="LTTS7${basename}" entrypoint="${basename}" />
+            <info description="Portuguese male voice" age="37" gender="male" demosentence="O meu nome é Eusébio: sou uma voz masculina de Loquendo, e a minha língua nativa é o português de Portugal." basepitch="100" basespeed="128" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="vocaldb" name="${basename}">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="MM" type="vad" name="${basename}MM">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+            </resources>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                        <add class="MM" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+            <languagealiases>
+                <alias type="internal" name="${mothertongue}" />
+                <alias type="IETF" name="pt-PT" />
+                <alias type="WinLangid" name="2070" />
+                <alias type="generic" name="PT" />
+                <alias type="generic" name="Portuguese" />
+                <alias type="generic" name="pt" />
+            </languagealiases>
+        </voice>
+    </voices>
+</config>

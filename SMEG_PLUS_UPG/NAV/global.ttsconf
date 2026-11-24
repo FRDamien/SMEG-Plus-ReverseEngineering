@@ -1,0 +1,11 @@
+<config>
+  <sessions>
+    <session name="default">
+      <diagnostics>
+        <log level="enabled" filename="stderr"/>
+        <trace level="disabled" filename="/C/LTTSTrace.txt"/>
+      </diagnostics>
+      <inputsignal mode="disk"/>
+    </session>
+  </sessions>
+</config>

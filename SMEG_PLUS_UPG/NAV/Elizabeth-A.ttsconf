@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <voices>
+        <voice name="Elizabeth-A" mothertongue="EnglishGb" basename="Elizabeth">
+            <library name="LTTS7${basename}" entrypoint="${basename}" />
+            <info description="British English female voice" age="36" gender="female" demosentence="My name is Elizabeth: I&apos;m one of a wide selection of voices from Loquendo, and British English is my mother tongue." basepitch="150" basespeed="128" />
+            <resources path="modules/${basename}">
+                <resource class="base" type="vocaldb" name="${basename}">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+                <resource class="MM" type="vad" name="${basename}MM">
+                    <flavour codec="LTTS7CodecMsx" frequency="16000" bitrate="32800" rank="10" name="${parent.name}.${this.frequency}.${this.codec}.${this.bitrate}.${this.rank}.bin" />
+                </resource>
+            </resources>
+            <modes>
+                <mode name="default">
+                    <parameters />
+                    <resources>
+                        <remove class="" type="" name="" />
+                        <add class="base" type="" name="" />
+                        <add class="MM" type="" name="" />
+                    </resources>
+                </mode>
+            </modes>
+            <languagealiases>
+                <alias type="internal" name="${mothertongue}" />
+                <alias type="IETF" name="en-GB" />
+                <alias type="WinLangid" name="2057" />
+                <alias type="generic" name="English" />
+                <alias type="generic" name="British" />
+                <alias type="generic" name="en" />
+                <alias type="generic" name="GB" />
+            </languagealiases>
+        </voice>
+    </voices>
+</config>
